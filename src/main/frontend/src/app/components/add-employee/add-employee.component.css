@@ -1,0 +1,43 @@
+.add-employee-div{
+	height:86vh;
+	margin-left:8px;
+	margin-right:8px;
+	margin-top:3px;
+	margin-bottom:3px;
+	box-shadow: 3px 2px 8px blue;
+	border-radius:20px;
+	overflow:auto;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	
+}
+.new-employee{
+	padding:20px 30px;
+	border:2px solid black;
+	border-radius:20px;
+}
+.new-employee h2{
+	text-align:center;
+	
+}
+.employee-form{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+}
+.employee-form input,.employee-form button{
+	width:350px;
+	height:40px;
+	padding:2px 10px;
+	border-radius:10px;
+	margin-bottom:20px;
+}
+.employee-form button{
+	font-size:15px;
+	font-weight:600;
+	width:200px;
+	background-color:#D5D6EA;
+	
+}

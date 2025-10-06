@@ -1,0 +1,28 @@
+.navbar{
+	height:6vh;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	margin: 4px 8px;
+	padding:14px 22px;
+	font-size:22px;
+	font-weight:700;
+	border-radius:12px;
+	box-shadow: 3px 2px 8px black;
+}
+
+.nav-links{
+	display:flex;
+	align-items:center;
+	height:100%;
+	width:38%;
+	cursor:pointer;
+	
+}
+
+.nav-links a{
+	margin-right:22px;
+	text-decoration:none;
+	color:black;
+	
+}

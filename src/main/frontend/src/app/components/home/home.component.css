@@ -1,0 +1,14 @@
+.home-div{
+	height:86vh;
+	margin-left:8px;
+	margin-right:8px;
+	margin-top:3px;
+	margin-bottom:3px;
+	box-shadow: 3px 2px 8px black;
+	border-radius:20px;
+	overflow:auto;
+}
+.home-div img{
+	height:100%;
+	width:100%;
+}

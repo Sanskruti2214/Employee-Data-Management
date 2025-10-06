@@ -1,0 +1,35 @@
+<div class="search-emp">
+	<div class="search">
+		<input placeholder="Search Employee.."		#entry="ngModel" 
+		     [(ngModel)]="searchText" 
+		     name="employeeSearch"
+		     required/>
+		<button (click)="searchEmployees()">Search</button>
+	</div>
+    <table class="search-result" border="1" *ngIf="employees && employees.length > 0 && entry.touched ">
+		 <thead>
+			<tr>
+				<th>Employee Id</th>
+				<th>Employee Name</th>
+				<th>Employee Email</th>
+				<th>Employee Position</th>
+				<th>Employee Salary</th>
+				<th>Actions</th>
+			</tr>
+		 </thead>
+		 <tbody>
+			<tr *ngFor="let employee of employees">
+				<td>{{employee.id}}</td>
+				<td>{{employee.name}}</td>
+				<td>{{employee.email}}</td>
+				<td>{{employee.position}}</td>
+				<td>{{employee.salary}}</td>
+				<td id="emp-actions">
+					<button (click)="updateEmployee(employee.id!)" id="btn1">Edit</button>
+					<button (click)="deleteEmployee(employee.id!)" id="btn2">Delete</button>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<div class="no-data" *ngIf="entry.touched && ( !employees || employees.length === 0 )">No employees found.</div>
+</div>

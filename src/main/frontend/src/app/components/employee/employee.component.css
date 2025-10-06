@@ -1,0 +1,59 @@
+.employee-div{
+	height:81vh;
+	margin-left:8px;
+	margin-right:8px;
+	padding:20px 40px;
+	margin-top:3px;
+	margin-bottom:3px;
+	box-shadow: 3px 2px 8px black;
+	border-radius:20px;
+	overflow:auto;
+	
+}
+
+
+.emp-table{
+	width:100%;
+	
+}
+
+.emp-table td{
+	height:40px;
+	padding:1px;
+	text-align:center;
+}
+
+#emp-actions{
+	min-height:50px;
+	padding:10px;
+}
+
+.emp-table button{
+	  flex: 1 1 auto;    /* let buttons shrink and wrap */
+	  min-width: 70px;   /* keep buttons readable */
+	  padding: 6px 10px;
+	  font-size: 14px;
+	  border:1px solid black;
+	  border-radius:8px;
+	  cursor: pointer;
+}
+
+#btn1{
+	margin-right:5px;
+	background-color:#afeeee;
+}
+
+#btn2{
+	background-color:#ff4500;
+	color:white;
+}
+
+.no-data{
+	display:block;
+	width:500px;
+	margin:280px auto;
+	text-align:center;
+	font-size:30px;
+	font-weight:700;
+	
+}

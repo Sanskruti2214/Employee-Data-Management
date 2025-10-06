@@ -1,0 +1,80 @@
+.search-emp{
+	height:86vh;
+	margin-left:8px;
+	margin-right:8px;
+	padding:20px 40px;
+	margin-top:3px;
+	margin-bottom:3px;
+	box-shadow: 3px 2px 8px black;
+	border-radius:20px;
+	overflow:auto;
+}
+
+.search{
+	padding:2px 5px;
+	display:block;
+	width:50%;
+	height:80px;
+	margin:8px auto;
+    cursor:pointer;
+}
+
+.search input{
+	height:25px;
+    width:400px;
+	margin-right:10px;
+	border:2px solid black;
+	border-radius:10px;
+	padding:10px;
+}
+
+.search-result{
+	width:100%;
+	margin:10px auto;
+	border:1px solid black;
+}
+
+.search-result td{
+	height:40px;
+	padding:1px;
+	text-align:center;
+}
+
+.search button{
+	padding:3px 6px;
+	width:80px;
+	height:40px;
+	font-weight:700;
+	font-size:17px;
+	border:2px solid black;
+	border-radius:10px;
+	background-color:aqua;
+}
+
+#emp-actions{
+	min-height:50px;
+	padding:10px;
+}
+
+#btn1{
+	margin-right:5px;
+	background-color:#afeeee;
+}
+
+#btn2{
+	background-color:#ff4500;
+	color:white;
+}
+
+.no-data{
+	display:block;
+	width:500px;
+	margin:70px auto;
+	text-align:center;
+	font-size:30px;
+	font-weight:700;
+	border:1px solid black;
+}
+
+
+
